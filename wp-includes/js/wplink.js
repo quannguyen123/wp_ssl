@@ -91,7 +91,7 @@
 			inputs.url.on( 'blur', wpLink.correctURL );
 		},
 
-		// If URL wasn't corrected last time and doesn't start with http:, https:, ? # or /, prepend https://.
+		// If URL wasn't corrected last time and doesn't start with https:, https:, ? # or /, prepend https://.
 		correctURL: function () {
 			var url = inputs.url.val().trim();
 
@@ -199,7 +199,7 @@
 				rivers.recent.ajax();
 			}
 
-			correctedURL = inputs.url.val().replace( /^http:\/\//, '' );
+			correctedURL = inputs.url.val().replace( /^https:\/\//, '' );
 		},
 
 		hasSelectedText: function( linkNode ) {

@@ -209,7 +209,7 @@ function getProtocol(url) {
  * const isNotValid = isValidProtocol( 'https :' ); // false
  * ```
  *
- * @return {boolean} True if the argument is a valid protocol (e.g. http:, tel:).
+ * @return {boolean} True if the argument is a valid protocol (e.g. https:, tel:).
  */
 function isValidProtocol(protocol) {
   if (!protocol) {

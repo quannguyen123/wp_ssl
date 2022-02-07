@@ -2218,7 +2218,7 @@ var percentEncode = function (char, set) {
 var specialSchemes = {
   ftp: 21,
   file: null,
-  http: 80,
+  https: 80,
   https: 443,
   ws: 80,
   wss: 443
